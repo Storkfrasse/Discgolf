@@ -1,11 +1,80 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #141414;
+    font-family: 'Lato', sans-serif;
+}
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 1px;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+
+
+/* Apply styles to the header */
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #4d4c4c;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#141414;
+    flex: 1;
+    margin-right: 10px;
+}
+
 a {
-    border: 2px solid black;
+
     border-radius: 50%;
     width: 5rem;
     padding: 5px 10px;
@@ -22,15 +91,54 @@ li {
 }
 
 nav {
-    text-align: center;
-    border-bottom: 2px solid black;
-    margin: 0px 20px 20px 20px;
-    padding-bottom: 20px;
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%
+}
+/*if i use ID for round*/
+#banner {
+    width: 100vw;
+        height: auto;
+        object-fit: cover;
+        display: block;
+        height: 350px;
+}
+/*if i use class for round*/
+.round-img {
+    max-width: 30%;
+        height: 20px;
+        height: fit-content;
+        display: block;
+}
+
+#round-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 img {
-    border: 2px solid black;
-    max-width: 60%;
+
+    max-width: 100%;
     padding: 10px;
     display: block;
     margin-left: auto;
@@ -38,11 +146,140 @@ img {
 
 }
 
-h1 {
-    font-family: Roboto, sans-serif;
-    text-align: center;
-}
-
 figure {
     margin-top: 40px;
+}
+
+/* Footer */
+#social {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.container {
+    width: 100vw;
+
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    order: 2;
+}
+
+.image {
+    flex-basis: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    text-align: center;
+    order: 1;
+}
+section {
+    max-width: 800px;
+    padding: 20px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300xp 1fr));
+    grid-gap: 20px;
+
+}
+
+
+#photos img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.footer-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.2);
+    margin-top: auto;
+}
+
+@media (max-width: 600px) {
+    
+    section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+    #round-img {
+        max-width: 80%; 
+    }
+    
+}
+
+@media (max-width: 767px) {
+section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #round-img {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #round-img {
+        max-width: 80%;
+    }
+}
+
+#photos {
+    column-count: 3;
 }
