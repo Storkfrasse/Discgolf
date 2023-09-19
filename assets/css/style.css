@@ -200,6 +200,7 @@ main {
     padding: 20px;
     text-align: left;
     order: 2;
+    
 }
 
 .image {
@@ -208,6 +209,11 @@ main {
     text-align: center;
     order: 1;
 }
+
+img:last-child {
+    margin-bottom: 20px;
+}
+
 section {
     max-width: 800px;
     padding: 20px;
@@ -222,6 +228,10 @@ section {
 
 }
 
+#photos-container {
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 
 #photos img {
     max-width: 100%;
@@ -229,7 +239,7 @@ section {
     
 }
 
-.footer-container {
+footer {
     background-color: #f2f2f2;
     padding: 20px;
     border: 1px solid #ccc;
@@ -237,6 +247,7 @@ section {
     text-align: center;
     box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.2);
     margin-top: auto;
+    
 }
 
 @media (max-width: 600px) {
@@ -251,7 +262,14 @@ section {
     #round-img {
         max-width: 80%; 
     }
+         
     
+    footer {
+      position: relative;
+      box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.2);
+    }     
+    
+
 }
 
 @media (max-width: 767px) {
@@ -262,9 +280,50 @@ section {
         text-align: center;
     }
 
+    header {
+        position: fixed;
+        top: 0;
+    }
+
+    
+
+    footer {
+        position: relative;
+        box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.2);   
+    }
+
     #round-img {
         max-width: 80%;
     }
+        #photos {
+            max-width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+    #photos img {
+      max-width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0;           
+    }
+
+    #photos img:last-child {
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .imgage-gallery img:last-child {
+        margin-bottom: 20px;
+    }
+
+    
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -274,12 +333,24 @@ section {
         align-items: center;
         text-align: center;
     }
+    header {
+        position: fixed;
+        top: 0;
+    }
 
     #round-img {
         max-width: 80%;
     }
-}
-
-#photos {
-    column-count: 3;
+        #photos {
+            column-count: 2;
+        }
+        #photos img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+    footer {
+         position: relative;
+         box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.2);   
+    }
 }
