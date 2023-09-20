@@ -107,6 +107,7 @@ nav {
         object-fit: cover;
         display: block;
         height: 350px;
+        
 }
 /*if i use class for round*/
 .round-img {
@@ -114,6 +115,7 @@ nav {
         height: 20px;
         height: fit-content;
         display: block;
+        box-shadow: #4d4c4c;
 }
 
 #round-img {
@@ -121,6 +123,7 @@ nav {
     height: auto;
     border-radius: 50%;
     padding: 10px;
+    box-shadow: #4d4c4c;
 }
 
 /* Nav toggle */
@@ -216,7 +219,7 @@ img:last-child {
 
 section {
     max-width: 800px;
-    padding: 20px;
+    padding: 200px;
     text-align: left;
     margin: 0 auto;
 }
@@ -239,6 +242,45 @@ section {
     
 }
 
+#signup {
+    background-color: #4d4c4c;
+    background-size: contain;
+    background-position: 50%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #f2f2f2;
+    background-color: #141414;
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #f2f2f2;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1pc solid #f2f2f2;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.sign-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #3a3a3a;
+    color: #f2f2f2;
+}
+
 footer {
     background-color: #f2f2f2;
     padding: 20px;
@@ -255,8 +297,8 @@ footer {
     section {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            text-align: center;
+            width: 100%;
+            
         }
 
     #round-img {
@@ -276,8 +318,8 @@ footer {
 section {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        width: 100%;
+        
     }
 
     header {
@@ -330,8 +372,8 @@ section {
 section {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        width: 100%;
+        
     }
     header {
         position: fixed;
@@ -342,7 +384,7 @@ section {
         max-width: 80%;
     }
         #photos {
-            column-count: 2;
+            column-count: 4;
         }
         #photos img {
             max-width: 100%;
