@@ -280,7 +280,7 @@ section h2, section p {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-    position:fixed;
+    position:center;
     margin-top: 50px;
 }
 
@@ -290,6 +290,12 @@ section h2, section p {
     padding: 30px;
     
 }
+ #form-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
 
 
 
@@ -432,6 +438,8 @@ footer {
     .imgage-gallery img:last-child {
         margin-bottom: 20px;
     }
+
+   
 
     
     
