@@ -155,7 +155,7 @@ figure {
     margin-top: 40px;
 }
 
-/* Footer */
+
 #social {
     text-align: center;
     padding: 20px 0;
@@ -256,7 +256,7 @@ section h2, section p {
 
 }
 
-
+/*Gallery*/
 .image-gallery {
     display: grid;
     grid-gap: 20px;
@@ -330,8 +330,7 @@ section h2, section p {
     
 }
 
-
-
+/*footer*/
 footer {
     background-color: #f2f2f2;
     padding: 20px;
@@ -342,7 +341,7 @@ footer {
     margin-top: auto;
     
 }
-
+/*media for diffrent screen sizes*/
 @media (max-width: 576px) {
 
     .content {
