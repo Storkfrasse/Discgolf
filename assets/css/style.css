@@ -274,7 +274,7 @@ section h2, section p {
     
     
 }
-
+/*contact form*/
 #signup {
     background-image: url(../images/disc\ cartoon.webp) ;
     background-size: cover;
@@ -307,11 +307,11 @@ section h2, section p {
 
 .text-input {
     background: transparent;
-    color: #050505;
+    color: #ffffff;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1pc solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     border-radius: 2px;
     padding: 0 5px;
 }
@@ -324,6 +324,13 @@ section h2, section p {
     background-color: #3a3a3a;
     color: #f2f2f2;
 }
+
+.no-resize {
+    resize: none;
+    
+}
+
+
 
 footer {
     background-color: #f2f2f2;
