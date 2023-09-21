@@ -3,7 +3,7 @@
 Discgolf is my big hobby and i made this site to spread the sport. The site is targeted at the regular person who is looking for an new sport to try out.
 I wanted the website to be as simple and nice as i could.
 
-Welcome to Discgolf <a href="https://https://storkfrasse.github.io/Discgolf/index.html" target="_blank" rel="noopener">Discgolf</a>
+Welcome to Discgolf <a href="https://storkfrasse.github.io/Discgolf/index.html" target="_blank" rel="noopener">Discgolf</a>
 
 
 # Contents
