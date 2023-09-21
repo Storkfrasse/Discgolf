@@ -72,7 +72,7 @@ I want Discgolf to be a inviting website for the user, with an easy navigation m
     * Sited at the top of all the pages in the site, it is fully responsive and contains links to the pages of the site.
     * The logo is clickable with a link back to the home page for enhanced UX.
 
-![Navigation bar image](/assets/readme-image/dropdownnavbar.jpg)
+![Navigation bar image](assets/readme-image/dropdownnavbar.jpg)
 [Back to top](<#contents>)
 
   * ### Gallery
@@ -80,7 +80,7 @@ I want Discgolf to be a inviting website for the user, with an easy navigation m
       * Is the second page. located under the navigation menu.
       * A responsively styled grid of images that show a few picture when i'v been out playing. 
 
-![Gallery image](/assets/readme-image/gallery.jpg)
+![Gallery image](assets/readme-image/gallery.jpg)
 [Back to top](<#contents>)
 
 
@@ -89,7 +89,7 @@ I want Discgolf to be a inviting website for the user, with an easy navigation m
     * Contains social media links. The links open in other tabs.
     * The link are there for the educational side of this project. They would be fixed with the right information if this site was deployed outside of this project.
     
-![Footer image](/assets/readme-image/footer.jpg)
+![Footer image](assets/readme-image/footer.jpg)
 [Back to top](<#contents>)
 
 
@@ -98,7 +98,7 @@ I want Discgolf to be a inviting website for the user, with an easy navigation m
 
     * It is a simpel contact form, the idea is that the user can put in information and a message with ideas so we can keep in touch.
 
-![Contact page image](/assets/readme-image/contact.jpg)
+![Contact page image](assets/readme-image/contact.jpg)
 [Back to top](<#contents>)
 
 
@@ -132,7 +132,7 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
   3. Under **Source**, select the branch to **main**, then click **save**.
   4. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-![GitHub pages deployed image](/assets/readme-image/deploy.jpg)
+![GitHub pages deployed image](assets/readme-image/deploy.jpg)
 
   The live link to the Github repository can be found here - https://github.com/Storkfrasse/Discgolf
 
@@ -140,17 +140,17 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
 A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
 1. Log in to **GitHub** and locate the [repository](https://github.com/Storkfrasse/Discgolf).
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
-![GitHub forking process image](/assets/readme-image/fork.jpg)
+![GitHub forking process image](assets/readme-image/fork.jpg)
 
 ### **To create a local clone of this project**
 The method from cloning a project from GitHub is below:
 
 1. Under the repository’s name, click on the **code** tab.
 2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
-![Cloning image](/assets/readme-image/clone.jpg)
+![Cloning image](assets/readme-image/clone.jpg)
 1. Go to [Codeanywhere](https://app.codeanywhere.com) Log in with GitHub
 2. Press the **+** New Workspace
-![Codeanywhere image](/assets/readme-image/codes.jpg)   
+![Codeanywhere image](assets/readme-image/codes.jpg)   
 3. Paste the link.
 4. Press **enter** and the local clone will be created.
 
