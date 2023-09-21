@@ -56,7 +56,7 @@ Discgolf has three pages. The [home page](index.html) is the default loading pag
       * 'Lato' is used for the body text as it provides a nice contrast to the cursive whilst being easy to read for all.
 
  * ### Colour Scheme
-      I used black and white as a colour scheme for Discgolf. i want to keep it simpel and easy for the eyes. 
+      I used black and white as a colour scheme for Discgolf. i want to keep it simple and easy for the eyes. 
 
 
 
@@ -96,7 +96,7 @@ I want Discgolf to be a inviting website for the user, with an easy navigation m
 
 * ### Contact
 
-    * It is a simpel contact form, the idea is that the user can put in information and a message with ideas so we can keep in touch.
+    * It is a simple contact form, the idea is that the user can put in information and a message with ideas so we can keep in touch.
 
 ![Contact page image](assets/readme-image/contact.jpg)
 [Back to top](<#contents>)
