@@ -167,13 +167,12 @@ The method from cloning a project from GitHub is below:
 
 ### Media
 * The photos all came from me and my friends
-* The photos were compressed using [Compressor](https://compressor.io/).
 * The picture on the contact page is from [Google picture search](https://google.com)
 
 [Back to top](<#contents>)
 
 # Acknowledgements
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/),
+The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/),
 
 Michael Sjö 2023.
 
