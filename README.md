@@ -33,8 +33,7 @@ Welcome to <a href="https://storkfrasse.github.io/Discgolf/index.html" target="_
 
 ## User Stories
 
-* As a user I want to be able to navigate through the whole site smoothly.
-* As a user I want to understand the purpose of the site upon loading it.
+* As a user I want to be able to navigate through the whole site smoothly
 * As a user I want to see picture of Discgolf.
 * As a user I want to know the history of Discgolf.
 * As a user I want to know how to get better on Discgolf.
@@ -104,7 +103,7 @@ I want Discgolf to be a inviting website for the user, with an easy navigation m
 
 ## Future Features 
 
-* To put more information about courses
+* To put more information about courses and how to get better.
 * To put in a page for all the different discs, how all the numbers on the disc make it fly diffrent.
 
 [Back to top](<#contents>)
