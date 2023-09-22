@@ -97,7 +97,7 @@ I want Discgolf to be a inviting website for the user, with an easy navigation m
 
     * It is a simple contact form, the idea is that the user can put in information and a message with ideas so we can keep in touch.
 
-![Contact page image](assets/readme-image/contact.jpg)
+![Contact page image](assets/readme-image/contactnew.jpg)
 [Back to top](<#contents>)
 
 
